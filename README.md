@@ -1,0 +1,1 @@
+# C#_OOP_HW007_class_abstract_r00
