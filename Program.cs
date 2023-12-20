@@ -1,4 +1,7 @@
 ﻿using Fungi.Type;
 
-AllomycesArbusculus type = new("Leptomitaceae");
-type.GetInfo();
+AllomycesArbusculus TypeNULL = new(null);
+TypeNULL.GetInfo();
+
+AllomycesArbusculus TypeDefault = new();
+TypeDefault.GetInfo();

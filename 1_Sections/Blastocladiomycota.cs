@@ -6,10 +6,9 @@ namespace Fungi
     {
         public abstract class Blastocladiomycota : Fungus
         {
-            protected Blastocladiomycota(in string? Name) : base(Name)
+            protected Blastocladiomycota(in string? _Name) : base(_Name)
             {
-                Section = Name is not null ? "Blastocladiomycota" : string.Empty;
-
+                this.Section = _Name is not null ? "Blastocladiomycota" : string.Empty;
             }
         }
     }
